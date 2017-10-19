@@ -1,0 +1,60 @@
+/* Menú Iconos Horizontal */
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+   font-family: 'Lobster', cursive;	
+}
+
+div{
+ border: 1px solid grey;
+ background-color:#FAF1F1; 
+ color:#544C4C; 	
+ width: 190px;
+ height: 300px; 
+ float: left;
+ text-align: center;
+ padding:10px;
+
+ }
+
+.icon-paperplane{
+ color:teal;
+ font-size: 50px;
+}
+
+.icon-diamond{
+ color:teal;
+ font-size: 50px; 
+}
+
+.icon-heart{
+ color:teal;
+ font-size: 50px;	
+}
+
+.icon-cup{
+  color:teal;
+ font-size: 50px;
+}
+
+.icon-food{
+ color:teal;
+ font-size: 50px; 
+}
+
+div:hover{
+  background: #A0A0A0;  /* Hover para div general   */
+  font-size:20px;
+  color: #FFF; 
+  width: 250px;
+ height: 350px; 
+ padding: 10px;
+ }
+
+ div:hover span{   /* Hover para div Icono */          
+ color:#33F4FB; 	
+ font-size:60px;
+}
